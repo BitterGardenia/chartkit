@@ -14,5 +14,6 @@ export default defineConfig({
       reporter: ['text', 'html'],
       include: ['packages/*/src/**'],
     },
+    exclude: [],
   },
 })
