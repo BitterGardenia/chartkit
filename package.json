@@ -39,7 +39,6 @@
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@types/semver": "^7.5.8",
-    "@vitejs/plugin-react": "^4.3.4",
     "@vitejs/plugin-react-swc": "^3.8.0",
     "@vitest/eslint-plugin": "^1.1.28",
     "conventional-changelog-cli": "^5.0.0",
