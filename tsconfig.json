@@ -1,6 +1,11 @@
 {
-  "include": ["scripts/*", "packages/global.d.ts", "packages/*/src", "packages/*/__tests__"],
-  "exclude": ["packages/**/__tests__/*"],
+  "include": [
+    "scripts/*",
+    "packages/global.d.ts",
+    "packages/*/src",
+    "packages/*/__tests__",
+    "vitest.config.js",
+  ],
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "temp",

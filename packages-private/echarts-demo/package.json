@@ -1,5 +1,5 @@
 {
-  "name": "@chartkit/demo",
+  "name": "@chartkit/echarts-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,13 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@chartkit/echarts": "workspace:*",
+    "echarts": "^5.6.0",
     "react": "catalog:",
-    "react-dom": "catalog:",
-    "@chartkit/echarts": "workspace:*"
+    "react-dom": "catalog:"
   },
   "devDependencies": {
-    "vite": "catalog:",
-    "@vitejs/plugin-react-swc": "catalog:"
+    "@vitejs/plugin-react-swc": "catalog:",
+    "vite": "catalog:"
   }
 }

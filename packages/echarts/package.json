@@ -43,5 +43,11 @@
   "bugs": {
     "url": "https://github.com/BitterGardenia/chartkit/issues"
   },
-  "homepage": "https://github.com/BitterGardenia/chartkit/tree/main/packages/echarts#readme"
+  "homepage": "https://github.com/BitterGardenia/chartkit/tree/main/packages/echarts#readme",
+  "dependencies": {
+    "echarts": "^5.6.0"
+  },
+  "peerDependencies": {
+    "echarts": "^5.6.0"
+  }
 }
