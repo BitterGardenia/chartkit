@@ -1,0 +1,47 @@
+{
+  "name": "@chartkit/echarts",
+  "version": "0.0.3",
+  "description": "@chartkit/echarts",
+  "main": "index.js",
+  "module": "dist/echarts.es.js",
+  "types": "dist/echarts.d.ts",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/echarts.d.ts",
+      "node": {
+        "production": "./dist/echarts.cjs.prod.js",
+        "development": "./dist/echarts.cjs.js",
+        "default": "./index.js"
+      },
+      "module": "./dist/echarts.es.js",
+      "import": "./dist/echarts.es.js",
+      "require": "./index.js"
+    }
+  },
+  "buildOptions": {
+    "name": "ChartkitEcharts",
+    "formats": [
+      "es",
+      "cjs",
+      "umd"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitterGardenia/chartkit",
+    "directory": "packages/echarts"
+  },
+  "keywords": [
+    "chartkit"
+  ],
+  "author": "Bitter Gardenia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BitterGardenia/chartkit/issues"
+  },
+  "homepage": "https://github.com/BitterGardenia/chartkit/tree/main/packages/echarts#readme"
+}
