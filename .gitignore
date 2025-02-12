@@ -31,3 +31,4 @@ coverage
 
 pnpm-lock.yaml
 temp
+.eslintcache
